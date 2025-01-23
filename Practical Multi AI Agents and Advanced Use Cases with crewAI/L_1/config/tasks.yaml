@@ -1,0 +1,49 @@
+task_breakdown:
+  description: >
+    Analise cuidadosamente os requisitos do projeto {project_type} e
+    divida-os em tarefas individuais. Defina o escopo de cada tarefa
+    em detalhes, estabeleça prazos alcançáveis e certifique-se de que
+    todas as dependências sejam consideradas:
+
+    {project_requirements}
+
+
+    Membros da equipe:
+
+    {team_members}
+  expected_output: >
+    Uma lista abrangente de tarefas com descrições detalhadas,
+    prazos, dependências e entregáveis. O resultado final DEVE incluir
+    um gráfico de Gantt ou uma visualização de cronograma semelhante
+    específica para o projeto {project_type}.
+
+time_resource_estimation:
+  description: >
+    Avalie minuciosamente cada tarefa do projeto {project_type} para
+    estimar o tempo, recursos e esforço necessários. Utilize dados
+    históricos, complexidade das tarefas e os recursos disponíveis
+    para fornecer uma estimativa realista para cada tarefa.
+  expected_output: >
+    Um relatório detalhado de estimativa descrevendo o tempo,
+    recursos e esforço necessários para cada tarefa do projeto
+    {project_type}. O relatório final DEVE incluir um resumo dos
+    riscos ou incertezas associados às estimativas.
+
+resource_allocation:
+  description: >
+    Alocar estrategicamente as tarefas do projeto {project_type} aos
+    membros da equipe, com base em suas habilidades, disponibilidade
+    e carga de trabalho atual. Garanta que cada tarefa seja atribuída
+    ao membro mais adequado da equipe e que a carga de trabalho seja
+    distribuída de forma equilibrada.
+
+
+    Membros da equipe:
+
+    {team_members}
+  expected_output: >
+    Um gráfico de alocação de recursos mostrando quais membros da
+    equipe são responsáveis por cada tarefa do projeto {project_type},
+    juntamente com as datas de início e término. O resultado final
+    DEVE incluir também um resumo explicando a lógica por trás de
+    cada decisão de alocação.
