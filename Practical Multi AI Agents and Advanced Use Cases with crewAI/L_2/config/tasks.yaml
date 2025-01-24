@@ -1,0 +1,38 @@
+data_collection:
+  description: >
+    Criar uma compreensão inicial do projeto, suas principais
+    características e a equipe trabalhando nele.
+    Use a ferramenta Trello Data Fetcher para coletar dados
+    do quadro Trello.
+  expected_output: >
+    Um relatório completo sobre o projeto, incluindo suas
+    principais características, a equipe envolvida
+    e qualquer outra informação relevante do quadro Trello.
+
+data_analysis:
+  description: >
+    Analisar os dados do Trello para identificar bloqueios,
+    atrasos e o progresso geral.
+  expected_output: >
+    Um resumo da análise destacando questões principais,
+    bloqueios, atrasos e progresso.
+
+report_generation:
+  description: >
+    Compilar um relatório abrangente da sprint com base na análise
+    dos dados do projeto.
+
+
+    O relatório deve incluir:
+    - Visão Geral da Sprint
+    - Resumo das Tarefas
+    - Problemas e Bloqueios Identificados
+    - Progresso e Atrasos
+    - Visão Geral do Desempenho da Equipe
+    - Itens de Ação e Recomendações
+    - Qualquer outra informação relevante ao projeto.
+    O relatório deve estar formatado em markdown.
+  expected_output: >
+    Um relatório detalhado da sprint em formato markdown que pode ser
+    apresentado à equipe executiva, sem incluir o markdown dentro de
+    blocos de código como '```', '```markdown' ou qualquer outro.
