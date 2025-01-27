@@ -1,6 +1,6 @@
 {
-  "nome": "Local de Conferência em São Francisco",
-  "endereco": "São Francisco, CA",
-  "capacidade": 1000,
-  "status_reserva": "Disponível"
+  "nome": "Conference Center at 500 Terry Francois St",
+  "endereco": "500 Terry Francois St, San Francisco, CA 94158",
+  "capacidade": 2000,
+  "status_reserva": "DisponÃ­vel"
 }

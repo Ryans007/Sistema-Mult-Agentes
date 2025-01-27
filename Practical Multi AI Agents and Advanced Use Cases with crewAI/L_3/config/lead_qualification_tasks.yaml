@@ -1,0 +1,75 @@
+lead_data_collection:
+  description: >
+    Coletar e analisar as seguintes informações sobre o lead:
+
+    - Informações Pessoais:
+      - Nome: Obtenha o nome completo do lead.
+      - Cargo: Determine o cargo atual do lead.
+      - Relevância do Cargo: Avalie quão relevante é o cargo do lead para o processo de tomada de decisões em uma escala de 0 a 10.
+      - Histórico Profissional: Opcionalmente, colete uma breve descrição do histórico profissional do lead.
+
+    - Informações da Empresa:
+      - Nome da Empresa: Identifique o nome da empresa para a qual o lead trabalha.
+      - Indústria: Determine o setor em que a empresa opera.
+      - Tamanho da Empresa: Estime o tamanho da empresa em termos de número de funcionários.
+      - Receita: Se disponível, colete informações sobre a receita anual da empresa.
+      - Presença no Mercado: Avalie a presença da empresa no mercado em uma escala de 0 a 10.
+
+    - Nossa Empresa e Produto:
+      - Nome da Empresa: CrewAI
+      - Produto: Plataforma de Orquestração Multi-Agente
+      - ICP: Empresas de grande porte interessadas em automação com agentes.
+      - Pitch: Somos uma plataforma que permite a orquestração de Agentes de IA para automações em qualquer vertical.
+
+    - Dados do Lead:
+      {lead_data}
+  expected_output: >
+    Um relatório de dados abrangente, incluindo:
+    - Informações pessoais (nome, cargo, relevância do cargo e, opcionalmente, histórico profissional).
+    - Informações da empresa (nome da empresa, indústria, tamanho da empresa, receita se disponível e presença no mercado).
+
+cultural_fit_analysis:
+  description: >
+    Avaliar o alinhamento cultural entre a empresa do lead e nossa organização considerando os seguintes pontos:
+      - Valores Culturais: Analise os valores declarados publicamente pela empresa e sua cultura interna (ex.: inovação, sustentabilidade, engajamento dos funcionários).
+      - Alinhamento Estratégico: Avalie o quanto os objetivos e a missão da empresa estão alinhados com os objetivos estratégicos da nossa organização.
+      - Pontuação Qualitativa: Atribua uma pontuação qualitativa (0-10) representando a adequação cultural geral.
+      - Comentários: Forneça comentários ou observações adicionais que justifiquem a pontuação da adequação cultural.
+
+    - Nossa Empresa e Produto:
+      - Nome da Empresa: CrewAI
+      - Produto: Plataforma de Orquestração Multi-Agente
+      - ICP: Empresas de grande porte interessadas em automação com agentes.
+      - Pitch: Somos uma plataforma que permite a orquestração de Agentes de IA para automações em qualquer vertical.
+
+    - Dados do Lead:
+      {lead_data}
+  expected_output: >
+    Um relatório de avaliação detalhado, incluindo:
+    - Pontuação de adequação cultural (0-10) com base no alinhamento de valores e objetivos estratégicos.
+    - Análise de suporte e comentários fornecendo contexto para a pontuação de adequação cultural.
+
+lead_scoring_and_validation:
+  description: >
+    Agregue os dados coletados e execute as seguintes etapas:
+    - Cálculo da Pontuação: Com base em critérios pré-definidos, calcule uma pontuação final do lead (0-100). Considere fatores como:
+      - Relevância do Cargo
+      - Tamanho da Empresa
+      - Presença no Mercado
+      - Adequação Cultural
+    - Documentação dos Critérios de Pontuação: Liste os critérios utilizados para determinar a pontuação.
+    - Validação: Revise os dados coletados e a pontuação calculada para verificar consistência e precisão. Faça ajustes, se necessário.
+    - Relatório Final: Compile um relatório resumido que inclua a pontuação final validada do lead, os critérios utilizados e quaisquer notas de validação.
+
+    - Nossa Empresa e Produto:
+      - Nome da Empresa: CrewAI
+      - Produto: Plataforma de Orquestração Multi-Agente
+      - ICP: Empresas de grande porte interessadas em automação com agentes.
+      - Pitch: Somos uma plataforma que permite a orquestração de Agentes de IA para automações em qualquer vertical.
+
+    - Dados do Lead:
+      {lead_data}
+  expected_output: >
+    Um relatório de pontuação validada de leads, incluindo:
+    - Pontuação final do lead (0-100) com critérios de pontuação.
+    - Um relatório resumido detalhando o processo de pontuação, critérios utilizados e notas de validação.

@@ -1,0 +1,47 @@
+email_drafting:
+  description: >
+    Redija um e-mail altamente personalizado usando o nome do lead, título de trabalho,
+    informações da empresa e qualquer conquista pessoal ou da empresa relevante.
+    O e-mail deve falar diretamente aos interesses do lead e às necessidades
+    da empresa dele.
+    Esta não é uma prospecção fria, mas um follow-up a um formulário de lead, então
+    mantenha-o curto e direto ao ponto.
+    Não use saudações ou encerramentos, nem frases muito complexas.
+
+    Nossa Empresa e Produto:
+    - Nome da Empresa: CrewAI
+    - Produto: Plataforma de Orquestração de Multi-Agentes
+    - ICP: Empresas que buscam automação Agentic.
+    - Pitch: Somos uma plataforma que permite orquestrar Agentes de IA para
+    automações em qualquer setor.
+
+    Use as seguintes informações:
+    Informações Pessoais: {personal_info}
+    Informações da Empresa: {company_info}
+    Lead Score: {lead_score}
+  expected_output: >
+    Um rascunho de e-mail personalizado que:
+    - Se dirige ao lead pelo nome
+    - Reconhece o cargo e a empresa dele
+    - Destaca como o CrewAI pode atender às necessidades ou interesses específicos dele
+
+engagement_optimization:
+  description: >
+    Revise o rascunho do e-mail personalizado e otimize-o com CTAs fortes
+    e ganchos de engajamento.
+    Lembre-se de que eles entraram em contato e preencheram um formulário de lead.
+    Mantenha-o curto e direto ao ponto.
+    Não use saudações ou encerramentos, nem frases muito complexas.
+    Certifique-se de que o e-mail incentive o lead a agendar uma reunião ou a tomar
+    outra ação desejada imediatamente.
+
+    Nossa Empresa e Produto:
+    - Nome da Empresa: CrewAI
+    - Produto: Plataforma de Orquestração de Multi-Agentes
+    - ICP: Empresas que buscam automação Agentic.
+    - Pitch: Somos uma plataforma que permite orquestrar Agentes de IA
+    para automações em qualquer setor.
+  expected_output: >
+    Um e-mail otimizado pronto para envio, completo com:
+    - CTAs fortes
+    - Ganchos de engajamento estrategicamente posicionados que incentivem ação imediata

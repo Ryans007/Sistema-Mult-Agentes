@@ -1,15 +1,50 @@
-Com base no currículo do Ryan e nos requisitos da vaga, aqui estão algumas perguntas e pontos de discussão possíveis para a entrevista:
+# Conjunto de Perguntas de Entrevista e Pontos de DiscussÃ£o para Ryan
 
-Perguntas:
-1. Você tem experiência em liderar a criação e manutenção de aplicações web utilizando Python, Django, JavaScript e React. Pode compartilhar mais detalhes sobre os desafios que enfrentou e como os superou?
-2. Você mencionou que tem experiência no desenvolvimento de APIs RESTful para integração de sistemas internos. Pode falar mais sobre um projeto específico onde essa habilidade foi crucial?
-3. Como Analista de Dados Júnior, você trabalhou com a manipulação e análise de grandes volumes de dados usando Python e SQL. Como você aplicou essas habilidades em seu papel atual como Desenvolvedor Full Stack?
-4. Você possui um Bacharel em Ciência da Computação e domínio de várias linguagens de programação e ferramentas de análise de dados. Como essas habilidades técnicas ajudaram você em seu papel de liderança?
+## Perguntas de Entrevista
 
-Pontos de Discussão:
-1. Discutir sua experiência em colaborar em um ambiente ágil e como isso contribuiu para a promoção de um ambiente de aprendizado contínuo e inovação.
-2. Falar sobre seus projetos, como o "Sistema de Recomendação de Filmes" e o "Aplicativo de Tarefas", e como eles demonstram suas habilidades técnicas e criatividade.
-3. Discutir sobre sua proficiência em HTML, CSS e JavaScript e como você aplicou essas habilidades em seus projetos.
-4. Explicar como suas habilidades de comunicação e liderança contribuíram para seu sucesso em suas funções anteriores e atuais.
+1. **ExperiÃªncia em Desenvolvimento Full Stack:**
+   - Poderia nos contar sobre sua experiÃªncia no desenvolvimento de aplicaÃ§Ãµes web utilizando Python e JavaScript? Quais desafios vocÃª enfrentou e como os superou?
 
-É importante que Ryan esteja preparado para discutir esses pontos em detalhes, fornecendo exemplos concretos de seu trabalho sempre que possível.
+2. **Trabalho com Metodologias Ãgeis:**
+   - Como vocÃª implementou metodologias Ã¡geis em sua equipe? Quais benefÃ­cios vocÃª observou na colaboraÃ§Ã£o e performance da equipe?
+
+3. **LideranÃ§a de Equipes Remotas:**
+   - VocÃª mencionou a gestÃ£o de equipes distribuÃ­das. Quais tÃ©cnicas vocÃª usa para manter a comunicaÃ§Ã£o e a eficiÃªncia em equipes remotas?
+
+4. **ExperiÃªncia com APIs RESTful:**
+   - Como vocÃª aborda o design e implementaÃ§Ã£o de APIs RESTful? Pode citar algum projeto especÃ­fico onde vocÃª enfrentou desafios neste aspecto?
+
+5. **Familiaridade com Bancos de Dados:**
+   - Como vocÃª decide entre usar MySQL ou MongoDB em um projeto? Poderia fornecer exemplos de situaÃ§Ãµes em que vocÃª optou por um ou outro?
+
+6. **ComunicaÃ§Ã£o TÃ©cnica:**
+   - Como vocÃª facilita a comunicaÃ§Ã£o entre a equipe de engenharia e outras partes interessadas do negÃ³cio? Pode compartilhar um exemplo de quando essa habilidade foi crucial?
+
+7. **InteligÃªncia Artificial e Machine Learning:**
+   - VocÃª possui experiÃªncia em aplicaÃ§Ãµes de IA/ML. Pode descrever um projeto onde utilizou essas tecnologias e os resultados obtidos?
+
+8. **ExperiÃªncia em UI/UX:**
+   - Como vocÃª garante que o design da interface do usuÃ¡rio esteja alinhado com as necessidades dos usuÃ¡rios? HÃ¡ alguma metodologia que vocÃª prefere?
+
+9. **ResoluÃ§Ã£o de Problemas:**
+   - Conte sobre uma situaÃ§Ã£o difÃ­cil em um projeto. Como vocÃª analisou e resolveu esse problema?
+
+10. **Crescimento e Aprendizagem Profissional:**
+    - Quais passos vocÃª tem tomado para continuar aprendendo e se desenvolvendo como um lÃ­der em engenharia de software?
+
+## Pontos de DiscussÃ£o
+
+- **ExperiÃªncia Comprovada:** Enfatizar os 18 anos de experiÃªncia e a lideranÃ§a em mÃºltiplos projetos que demonstram competÃªncia em diversas tecnologias requisitadas pela vaga.
+
+- **AdoÃ§Ã£o de Novas Tecnologias:** Discutir como a experiÃªncia em projetos open-source no GitHub reflete a dedicaÃ§Ã£o Ã  inovaÃ§Ã£o e Ã  adoÃ§Ã£o de novas tecnologias.
+
+- **Habilidades de ComunicaÃ§Ã£o:** Destacar a importÃ¢ncia das habilidades de comunicaÃ§Ã£o para discutir aspectos tÃ©cnicos com nÃ£o-tÃ©cnicos, e como isso impacta a entrega de projetos.
+
+- **OrientaÃ§Ã£o para Resultados:** Mostrar como a proatividade e determinaÃ§Ã£o tÃªm contribuÃ­do para resultados positivos em sua trajetÃ³ria profissional.
+
+- **Exemplos Concretos de Projetos:** Estar preparado para discutir em detalhes os projetos listados no GitHub, como o uso de IA em sistemas de recomendaÃ§Ã£o e como esses projetos se relacionam com as necessidades da empresa.
+
+- **Desenvolvimento Pessoal ContÃ­nuo:** Falar sobre certificaÃ§Ãµes e cursos que complementam sua formaÃ§Ã£o acadÃªmica e profissional, como o MBA em InteligÃªncia Artificial e CiÃªncia de Dados.
+
+Essas perguntas e pontos de discussÃ£o serÃ£o cruciais para ajudar Ryan a se preparar efetivamente para a entrevista e destacar como suas experiÃªncias e habilidades se alinham com os requisitos da vaga.
+```

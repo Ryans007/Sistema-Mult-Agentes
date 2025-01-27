@@ -1,77 +1,80 @@
-# Ryan Johnson
+# Ryan
 
 [Email](mailto:ryan.johnson@example.com) | [LinkedIn](https://www.linkedin.com/in/ryanjohnson) | [GitHub](https://github.com/ryanjohnson)
 
 ---
 
-## Resumo
+## Resumo Profissional
 
-Ryan é um Líder em Engenharia de Software com 18 anos de experiência, atualmente atuando como Desenvolvedor Full Stack na Tech Solutions Ltda. Ele tem um histórico comprovado de entrega de soluções inovadoras, com sólidos conhecimentos em várias linguagens de programação e frameworks, incluindo Python, Django, JavaScript e React. Ryan é apaixonado por tecnologia e se destaca em ambientes ágeis, onde colabora ativamente para promover um ambiente de aprendizado contínuo e inovação. Com experiência adicional como Analista de Dados, Ryan possui habilidades em manipulação e análise de grandes volumes de dados, bem como na criação de dashboards e relatórios para tomada de decisão. Ele é fluente em inglês, tem nível intermediário em espanhol e é graduado em Ciência da Computação pela Universidade XYZ. Além disso, ele possui um MBA, o que fortalece suas habilidades de liderança e gestão. Ryan tem uma paixão particular por Inteligência Artificial e Análise de Dados, demonstrada por seus projetos e certificações.
+LÃ­der em Engenharia de Software com 18 anos de experiÃªncia, especializado em desenvolvimento de aplicaÃ§Ãµes desktop e mÃ³veis, e gerenciamento de equipes Ã¡geis. Formado em CiÃªncia da ComputaÃ§Ã£o, com MBA em InteligÃªncia Artificial e CiÃªncia de Dados. Sou apaixonado por adotar soluÃ§Ãµes inovadoras que otimizam processos e melhoram a eficiÃªncia organizacional. Fluente em inglÃªs, possuo habilidades de comunicaÃ§Ã£o excepcionais que facilitam a colaboraÃ§Ã£o entre equipes tÃ©cnicas e de negÃ³cios.
 
 ---
 
-## Experiência Profissional
+## ExperiÃªncia Profissional
 
-### **Desenvolvedor Full Stack Sênior**  
+### **LÃ­der em Engenharia de Software**  
 **Tech Solutions Ltda** | Janeiro de 2022 - Presente
 
-- Liderou a criação e manutenção de aplicações web robustas, escaláveis e eficientes, utilizando Python, Django, JavaScript e React.
-- Desenvolveu APIs RESTful inovadoras para integração de sistemas internos, melhorando significativamente a eficiência operacional.
-- Realizou análise de requisitos e interação direta com os clientes para garantir a entrega de soluções personalizadas que atendessem às suas necessidades.
-- Colaborou em um time ágil, promovendo um ambiente de aprendizado contínuo e inovação. 
+- Gerenciamento e lideranÃ§a no desenvolvimento de aplicaÃ§Ãµes web utilizando Python, Django, JavaScript (React, jQuery) e frameworks modernos.
+- ImplementaÃ§Ã£o de metodologias Ã¡geis, promovendo um ambiente colaborativo que incentiva inovaÃ§Ã£o e feedback contÃ­nuo.
+- Desenvolvimento de APIs RESTful para integraÃ§Ã£o de sistemas, garantindo alta performance e escalabilidade.
 
-### **Analista de Dados Sênior**  
-**DataTech Corp** | Julho de 2020 - Dezembro de 2021
+### **Desenvolvedor Full Stack**  
+**DataTech Corp** | Julho de 2018 - Dezembro de 2021
 
-- Manipulou e analisou grandes volumes de dados complexos usando Python e SQL, fornecendo insights valiosos para a estratégia de negócios da empresa.
-- Criou dashboards e relatórios intuitivos para tomada de decisão usando ferramentas como Power BI e Tableau, facilitando a compreensão dos dados.
-- Desenvolveu modelos preditivos e conduziu testes A/B para otimização de processos empresariais, contribuindo para a eficiência operacional da empresa.
-
----
-
-## Educação
-
-**Master of Business Administration (MBA)**  
-**Universidade ABC** | Conclusão em 2022
-
-**Bacharel em Ciência da Computação**  
-**Universidade XYZ** | Conclusão em 2020
-
-Possui uma forte compreensão de modelos de IA/ML e domínio de ferramentas de big data, incluindo Hadoop, Spark, Kafka, etc. Além disso, é proficiente em HTML, CSS e JavaScript.
+- CriaÃ§Ã£o e manutenÃ§Ã£o de aplicaÃ§Ãµes full stack com Ãªnfase em UI/UX, trabalhando com HTML, CSS, e JavaScript, alÃ©m de backend em Python e Node.js.
+- ColaboraÃ§Ã£o com equipes multidisciplinares para entender requisitos e traduzir necessidades de negÃ³cios em soluÃ§Ãµes tÃ©cnicas.
+- Projetos focados em manipulaÃ§Ã£o de dados, empregando MongoDB e MySQL para armazenamento eficiente de informaÃ§Ãµes.
 
 ---
 
-## Habilidades Técnicas
+## Habilidades TÃ©cnicas
 
-- **Linguagens de Programação**: Python, JavaScript, SQL, HTML/CSS, Java, XML, jQuery
-- **Frameworks**: Django, React, Flask, Angular, Node.js
-- **Ferramentas de Análise de Dados**: Pandas, NumPy, Matplotlib, Power BI, Tableau
-- **Bases de Dados**: MySQL, PostgreSQL, MongoDB
-- **Servidores Web**: Apache
-- **Outras Tecnologias**: Git, Docker, AWS, Kubernetes
-- **Design de UI/UX**: Familiaridade com práticas de design de UI/UX
-- **Gestão de Projetos**: Fortes habilidades de gestão de projetos e organização
-- **Regulamentos de Privacidade de Dados**: Familiaridade com regulamentos de privacidade de dados e melhores práticas
-- **Habilidades de Comunicação**: Habilidades excelentes de comunicação, capaz de conduzir discussões técnicas detalhadas com equipes de engenharia e pessoas de negócios. Fluente em inglês.
+- **Desenvolvimento**: Python, Java, JavaScript, HTML, CSS, SQL
+- **Frameworks**: Angular, React, Node.js, Django
+- **Bancos de Dados**: MySQL, MongoDB
+- **Ferramentas de Machine Learning e Big Data**: Hadoop, Spark, Kafka
+- **Design UI/UX**: Expertise em design de interfaces intuitivas e funcionais.
+- **Metodologias Ãgeis**: Kanban, Scrum
+- **Idiomas**: InglÃªs fluente
 
 ---
 
-## Projetos
+## EducaÃ§Ã£o
 
-### **crewAIInc/crewAI**
-Este projeto demonstra as habilidades e experiências de Ryan em inteligência artificial e liderança de equipe. Como parte deste projeto, Ryan contribuiu para o desenvolvimento de soluções de IA inovadoras e demonstrou sua habilidade em colaborar efetivamente com uma equipe.
+**Bacharel em CiÃªncia da ComputaÃ§Ã£o**  
+**Universidade XYZ** | ConclusÃ£o em 2005
 
-### **machinery**
-Este projeto evidencia a experiência de Ryan em desenvolvimento de software e sua capacidade de trabalhar com tecnologias complexas. Ele mostra sua competência em criar e manter sistemas de software robustos.
+**MBA em InteligÃªncia Artificial e CiÃªncia de Dados**  
+**Universidade ABC** | ConclusÃ£o em 2010
 
-### **rails-api/active_model_serializers**
-Ryan contribuiu para este projeto, demonstrando suas habilidades em desenvolvimento web e APIs. Ele mostra sua familiaridade com as melhores práticas de desenvolvimento de API e sua competência em trabalhar com o framework Rails.
+---
 
-### **gioco**
-Este projeto destaca a competência de Ryan em desenvolvimento de jogos e sua criatividade em design de software. Ele mostra sua habilidade em criar experiências de jogo envolventes e sua competência em usar tecnologias de desenvolvimento de jogos.
+## Projetos e ContribuiÃ§Ãµes no GitHub
 
-### **sigma**
-O projeto Sigma destaca as habilidades de Ryan em análise de dados e sua capacidade de trabalhar com grandes conjuntos de dados. Ele mostra sua competência em usar ferramentas e técnicas modernas de análise de dados para extrair insights úteis.
+1. **[crewAI](https://github.com/crewAIInc/crewAI)**  
+   - Framework para orquestrar agentes de IA autÃ´nomos em um ambiente colaborativo.
+   - Tecnologias: Python | Estrelas: 3.4k
 
-### **keeper**
-Este projeto mostra a habilidade de Ryan em desenvolvimento de aplicativos móveis e seu conhecimento em segurança de software. Ele demonstra sua competência em criar aplicativos móveis
+2. **[App de Gerenciamento de Tarefas](https://github.com/ryanjohnson/todo-app)**  
+   - Aplicativo desenvolvido em React e Django, com autenticaÃ§Ã£o e armazenamento em PostgreSQL.
+
+3. **[Sistema de RecomendaÃ§Ã£o de Filmes](https://github.com/ryanjohnson/movie-recommender)**  
+   - Utiliza algoritmos de aprendizado de mÃ¡quina para fornecer recomendaÃ§Ãµes personalizadas.
+
+---
+
+## CaracterÃ­sticas Pessoais
+
+- Alta Responsabilidade e determinaÃ§Ã£o (Grit)
+- Proatividade (Scrappy) e orientaÃ§Ã£o para propriedade (Ownership orientation)
+- Habilidade em discussÃµes tÃ©cnicas com equipes de engenharia e negÃ³cios
+
+---
+
+## Interesses
+
+- InteligÃªncia Artificial
+- Desenvolvimento Web
+- AnÃ¡lise de Dados
+```
