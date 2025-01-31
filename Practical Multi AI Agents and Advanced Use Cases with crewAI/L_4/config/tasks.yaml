@@ -1,0 +1,68 @@
+suggestion_generation:
+  description: >
+    Gerar sugestões acionáveis para resolver cada ticket de suporte classificado.
+    As sugestões devem ser baseadas em:
+    - Tipo de Problema: Adaptar as sugestões ao tipo específico de problema relatado.
+    - Dados Históricos: Utilizar dados históricos, como tempo de resolução em minutos e
+      índice de satisfação, para embasar as sugestões.
+    - Feedback do Cliente: Incorporar insights dos comentários dos clientes para
+      personalizar ainda mais as sugestões.
+
+    O objetivo é fornecer etapas claras e acionáveis que a equipe de suporte
+    possa seguir para resolver cada problema de forma eficiente e eficaz.
+  expected_output: >
+    Uma lista de sugestões acionáveis vinculadas a cada ticket de suporte classificado,
+    otimizadas para uma resolução rápida e eficaz pela equipe de suporte.
+
+table_generation:
+  description: >
+    Gerar tabelas que resumam as principais métricas e tendências observadas nos
+    dados de suporte, incluindo:
+    - Resultados da Classificação de Problemas: Uma tabela que resume a frequência e
+      os níveis de prioridade dos diferentes tipos de problemas.
+    - Desempenho dos Agentes: Uma tabela mostrando o desempenho dos diferentes agentes
+      com base nos tempos de resolução e índices de satisfação do cliente.
+    - Satisfação do Cliente: Uma tabela que resume as avaliações de satisfação dos clientes
+      ao longo do tempo.
+
+    Essas tabelas servirão como base para a geração de gráficos na próxima etapa.
+  expected_output: >
+    Um conjunto de tabelas que resumem as principais métricas e tendências observadas nos
+    dados de suporte, prontas para serem usadas na geração de gráficos.
+
+chart_generation:
+  description: >
+    Gerar gráficos com base nas tabelas fornecidas na etapa anterior. Os gráficos devem incluir:
+    - Distribuição de Problemas: Um gráfico mostrando a distribuição dos diferentes tipos de problemas.
+    - Níveis de Prioridade: Um gráfico representando a divisão dos tickets por nível de prioridade.
+    - Tempos de Resolução: Uma linha de tendência mostrando os tempos médios de resolução nos últimos meses.
+    - Satisfação do Cliente: Um gráfico de barras ou linha de tendência mostrando as avaliações de satisfação do cliente ao longo do tempo.
+    - Desempenho dos Agentes: Um gráfico mostrando o desempenho dos diferentes agentes
+      com base nos tempos de resolução e índices de satisfação do cliente.
+
+    Salvar os gráficos como arquivos de imagem no diretório atual.
+
+    Certifique-se de que os gráficos sejam salvos como arquivos de imagem e gere URLs para essas imagens
+    para que possam ser facilmente incorporadas ao relatório final.
+  expected_output: >
+    Um conjunto de gráficos que representam visualmente as principais métricas e tendências observadas
+    nos dados de suporte, prontos para serem integrados ao relatório final.
+
+final_report_assembly:
+  description: >
+    Montar o relatório final integrando as tabelas e gráficos gerados nas etapas anteriores. O relatório deve incluir:
+    - Resultados da Classificação de Problemas: Visão geral dos tipos de problemas relatados,
+      sua frequência e níveis de prioridade, apresentados em tabelas e gráficos.
+    - Desempenho dos Agentes: Insights sobre o desempenho dos agentes de suporte,
+      com base em métricas como tempo de resolução e satisfação do cliente, apresentados em tabelas e gráficos.
+    - Satisfação do Cliente: Um resumo das avaliações de satisfação do cliente e suas tendências ao longo do tempo, apresentados em tabelas e gráficos.
+    - Ações Sugeridas: Um resumo das sugestões acionáveis geradas para cada categoria de problema.
+
+    O relatório deve exibir tabelas e gráficos relevantes lado a lado, com um tamanho adequado.
+
+    O relatório deve ser formatado para fácil compreensão pelos stakeholders,
+    fornecendo insights valiosos sobre o desempenho do sistema de suporte e áreas de melhoria.
+  expected_output: >
+    Um relatório final abrangente que integra tabelas, gráficos e insights acionáveis em um único documento,
+    formatado para os stakeholders.
+    Não adicione '```' ou '```markdown' ao relatório.

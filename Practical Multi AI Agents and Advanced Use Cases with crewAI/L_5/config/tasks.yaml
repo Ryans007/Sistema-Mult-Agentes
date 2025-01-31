@@ -1,0 +1,60 @@
+monitor_financial_news:
+  description: >
+    Monitore e analise as últimas notícias e atualizações relacionadas aos
+    mercados financeiros, com um foco específico em {subject}.
+    Identifique e resuma os itens de notícias mais relevantes e impactantes
+    que possam influenciar as tendências do mercado ou as decisões dos investidores.
+    Utilize APIs de notícias financeiras e ferramentas de dados de mercado em tempo real para
+    coletar informações atualizadas. Foque em detectar tendências,
+    mudanças regulatórias ou indicadores econômicos significativos que
+    estejam diretamente relacionados a {subject}.
+  expected_output: >
+    Um relatório de resumo detalhado destacando as notícias financeiras
+    mais impactantes e atualizações relacionadas a {subject}. Este relatório deve incluir
+    insights-chave e suas possíveis implicações para o mercado e
+    a estratégia de conteúdo.
+
+analyze_market_data:
+  description: >
+    Analise dados e tendências de mercado relacionados a {subject}, com foco
+    em identificar padrões, oportunidades e riscos que possam ser
+    aproveitados na criação de conteúdo. Use ferramentas avançadas de análise de dados
+    para processar grandes conjuntos de dados e gerar insights acionáveis.
+    Preste atenção especial a como {subject} influencia os movimentos do mercado,
+    o sentimento dos investidores e os indicadores econômicos.
+  expected_output: >
+    Um relatório de análise abrangente que destaca as principais tendências
+    de mercado e insights acionáveis relacionados a {subject}. O relatório deve
+    incluir visualizações de dados e recomendações claras para a criação
+    de conteúdo.
+
+create_content:
+  description: >
+    Com base nos insights fornecidos pelos agentes de Monitoramento de Notícias de Mercado e
+    Analista de Dados, crie conteúdo de alta qualidade e envolvente que
+    eduque e informe o público-alvo sobre {subject}.
+    Produza diversos tipos de conteúdo, incluindo posts de blog e
+    atualizações nas redes sociais, que comuniquem efetivamente os insights
+    coletados. Certifique-se de que o conteúdo transmita claramente as principais descobertas
+    e recomendações relacionadas a {subject}. Incorpore visualizações de dados,
+    infográficos ou outros elementos multimídia para enriquecer o conteúdo, quando aplicável.
+  expected_output: >
+    Uma coleção de peças de conteúdo de alta qualidade relacionadas a {subject},
+    incluindo posts de blog e atualizações nas redes sociais, completas com
+    elementos multimídia integrados.
+
+quality_assurance:
+  description: >
+    Revise e refine o conteúdo criado sobre {subject} para garantir que ele
+    atenda aos mais altos padrões de precisão, clareza e alinhamento com a marca.
+    Revise e edite minuciosamente o conteúdo, verificando erros, inconsistências e alinhamento com a voz da marca.
+    Certifique-se de que o conteúdo reflita com precisão os principais insights e
+    recomendações fornecidos pelos agentes de Analista de Dados e Monitoramento de Notícias de Mercado.
+    Garanta que o conteúdo final esteja bem formatado em markdown, usando cabeçalhos apropriados,
+    pontos de lista, links e outros recursos de markdown para melhorar a legibilidade e o engajamento.
+  expected_output: >
+    Um conjunto finalizado de peças de conteúdo relacionadas a {subject}, totalmente
+    revisadas e formatadas em markdown. O conteúdo deve estar
+    bem estruturado, com o uso apropriado de cabeçalhos, pontos de lista,
+    links e outros recursos de markdown para garantir que seja visualmente
+    atraente e fácil de ler. Cada seção deve ter pelo menos 2 parágrafos.
