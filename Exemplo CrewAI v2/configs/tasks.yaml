@@ -1,0 +1,30 @@
+task_especialista_classificador_lgpd:
+  description: >
+    Realizar uma análise detalhada do documento, verificando sua conformidade com a Lei Geral de Proteção de Dados (LGPD). 
+    Para isso, o agente deve pesquisar as normas e diretrizes da LGPD, identificar possíveis violações ou inconformidades no documento, 
+    e justificar de forma clara e embasada os pontos que não estão alinhados com a legislação. O documento original deve ser preservado, 
+    e as observações devem ser adicionadas de forma estruturada ao final.
+  expected_output: >
+    Um texto contendo o conteúdo integral do documento original, seguido de uma análise detalhada que:
+    1. Indique quais trechos ou práticas descritas no documento violam as normas da LGPD.
+    2. Explique, com base nas diretrizes da LGPD, o motivo da inconformidade.
+    3. Sugira, quando aplicável, correções ou ajustes para garantir a conformidade.
+    A análise deve ser clara, objetiva e fundamentada nas normas vigentes da LGPD.
+
+task_anonimizador:
+  description: >
+    Identificar dados sensíveis no documento e substituí-los por "XXX", garantindo a anonimização conforme as normas da LGPD.
+  expected_output: >
+    Um documento final contendo apenas o texto original tratado, com os dados sensíveis substituídos por "XXX". 
+    A análise das partes não conformes com a LGPD, enviada pelo agente anterior, deve ser completamente removida, 
+    mantendo apenas o conteúdo do documento original anonimizado.
+
+task_revisador_lgpd:
+  description: >
+    Verificar se os dados identificados como não conformes com a LGPD pelo primeiro agente foram corretamente anonimizados pelo segundo agente. 
+    Além disso, revisar e aprimorar o texto, garantindo que ele esteja formal e adequado ao ambiente judicial.
+    Você não vai alterar a anonimização feita pelo agente anterior, apenas mudar algumas partes textuais, para deixa-las mais formal.
+
+  expected_output: >
+    Você vai gerar um arquivo final no formato Markdown, totalmente tratado em conformidade com as normas da LGPD, 
+    com os dados sensíveis anonimizados e o texto revisado para maior formalidade e clareza, adequado ao ambiente judicial.
