@@ -1,9 +1,8 @@
 # type: ignore
-from crewai import Agent, Task, Crew
+from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool,ScrapeWebsiteTool,FileReadTool,MDXSearchTool
 import yaml
 import os
-from IPython.display import Markdown, display
 import streamlit as st
 from utils import get_openai_api_key, get_serper_api_key
 import warnings
@@ -12,7 +11,6 @@ warnings.filterwarnings('ignore')
 # Load environment variables
 from utils import load_env
 load_env()
-
 
 async def multi_agent_system():
     openai_api_key = get_openai_api_key()
@@ -92,13 +90,10 @@ async def multi_agent_system():
             task_especialista_classificador_lgpd,
             task_anonimizador,
             task_revisador_lgpd
-        ]
+        ],
+        process = Process.sequential,
     )
     
-    await crew.kickoff_async()
+    st.session_state["chain"] = await crew.kickoff_async()
     
-    # Exibir o conteúdo do arquivo atualizado
-    with open("documento_atualizado.md", 'r', encoding='utf-8') as file:
-        markdown_content = file.read()
-        st.header("Seu contrato Atualizado\n", divider=True)
-        st.markdown(markdown_content)
+    
