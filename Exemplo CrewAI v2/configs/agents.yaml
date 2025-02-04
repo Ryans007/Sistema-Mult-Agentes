@@ -12,7 +12,7 @@ agente_especialista_classificador_lgpd:
     de seus clientes e a reputação das organizações.
   verbose: true
   allow_delegation: false
-  llm: "gpt-4o-mini"
+  llm: "gpt-3.5-turbo"
 
 agente_anonimizador:
   role: >
@@ -24,7 +24,7 @@ agente_anonimizador:
     como nomes, CPFs, endereços e outros dados pessoais, assegurando que os documentos estejam em total conformidade com as regulamentações de proteção de dados.
   verbose: true
   allow_delegation: false
-  llm: "gpt-4o-mini"
+  llm: "gpt-3.5-turbo"
 
 agente_revisador_lgpd:
   role: >
@@ -39,6 +39,6 @@ agente_revisador_lgpd:
     Além disso, ele realiza ajustes finais para garantir que a escrita seja formal e adequada ao ambiente judicial.
   verbose: true
   allow_delegation: false
-  llm: "gpt-4o-mini"
+  llm: "gpt-3.5-turbo"
 
 

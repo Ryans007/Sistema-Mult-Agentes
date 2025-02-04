@@ -2,7 +2,7 @@ import streamlit as st
 from pathlib import Path
 import time
 import asyncio
-from mult_agents_run import multi_agent_system
+from mult_agents import multi_agent_system
 
 FILE_FOLDER = Path(__file__).parent / "documents"
 
@@ -39,12 +39,18 @@ def home():
     if "document" not in st.session_state:
         st.error("Adicione arquivos para inicializar a Inteligência Artificial")
         st.stop()   
+
     # Exibir o conteúdo do arquivo atualizado
     with open("documento_atualizado.md", 'r', encoding='utf-8') as file:
         markdown_content = file.read()
+        def stream_data():
+            for word in markdown_content.split(" "):
+                yield word + " "
+                time.sleep(0.06)
+        
         st.header("Seu contrato Atualizado com as Normas LGPD\n", divider=True)
-        st.markdown(markdown_content)
-    
+        st.write_stream(stream_data)
+
 def main():   
     with st.sidebar:
         sidebar()

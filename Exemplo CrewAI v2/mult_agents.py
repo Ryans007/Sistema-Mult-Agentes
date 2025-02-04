@@ -14,7 +14,7 @@ load_env()
 
 async def multi_agent_system():
     openai_api_key = get_openai_api_key()
-    os.environ["OPENAI_MODEL_NAME"] = "gpt-4o-mini"
+    os.environ["OPENAI_MODEL_NAME"] = "gpt-3.5-turbo"
     os.environ["SERPER_API_KEY"] = get_serper_api_key()
 
     # Loading Tasks and Agents YAML files
