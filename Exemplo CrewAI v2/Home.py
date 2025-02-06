@@ -18,7 +18,7 @@ def sidebar():
         # Limpa a pasta de documentos
         for document in FILE_FOLDER.glob("*"):
             document.unlink()
-        
+
         # Salva o novo documento
         with open(FILE_FOLDER / uploaded_document.name, 'wb') as document_files:
             document_files.write(uploaded_document.read())
